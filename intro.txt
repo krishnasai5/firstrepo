@@ -22,4 +22,4 @@ git push -u origin second
 git branch
 git checkout second
 
-//
+//pull the file from remote repo to local:
