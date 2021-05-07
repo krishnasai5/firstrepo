@@ -6,4 +6,18 @@ git commit -m "introduction"
 git remote add origin https://github.com/krishnasai5/firstrepo.git
 git push -u origin master
 
-//
+//create a second branch: second
+git branch second
+git checkout second
+git push -u origin second
+
+//update the intro file and push to second branch (the updated content is saved in second branch not in the master branch)
+git init
+git add intro.txt
+git commit -m "update to introduction file"
+git remote add second https://github.com/krishnasai5/firstrepo.git
+git push -u origin second
+
+//change branch from one to another.
+git branch
+git checkout second
