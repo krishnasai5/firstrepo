@@ -1,1 +1,9 @@
 hi, krishna sai.
+//push the file to the remote repository(firstrepo.git) in master branch.
+git init
+git add intro.txt
+git commit -m "introduction"
+git remote add origin https://github.com/krishnasai5/firstrepo.git
+git push -u origin master
+
+//
