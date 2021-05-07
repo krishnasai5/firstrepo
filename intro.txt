@@ -24,4 +24,5 @@ git push -u origin second
 git branch
 git checkout second
 
-//pull the file from remote repo to local:
+//pull the file from a particular branch from remote repo to local: third is the branch name.
+git clone -b third https://github.com/krishnasai5/firstrepo.git
